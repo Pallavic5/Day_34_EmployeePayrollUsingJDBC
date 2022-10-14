@@ -1,0 +1,21 @@
+Employee Payroll Service Problem
+-----------------------------------------------------------------------
+UC - 1 : Ability to create a payroll service database
+-----------------------------------------------------------------------
+mysql> create database Payroll_Service;
+Query OK, 1 row affected (0.01 sec)
+mysql> show databases;
++--------------------+
+| Database           |
++--------------------+
+| addressbookservice |
+| bridgelabz         |
+| information_schema |
+| mysql              |
+| payroll_service    |
+| performance_schema |
+| sys                |
++--------------------+
+7 rows in set (0.01 sec)
+mysql> use payroll_service;
+Database changed
