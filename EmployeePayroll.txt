@@ -55,6 +55,9 @@ mysql> insert into employee_payroll (name, salary, start) values ('Bill', 100000
 Query OK, 3 rows affected (0.03 sec)
 Records: 3  Duplicates: 0  Warnings: 0
 
+-----------------------------------------------------------------------------------------
+UC - 4 : Ability to retrieve all the data from employee_payroll table
+------------------------------------------------------------------------------------------
 mysql> select * from employee_payroll;
 +----+---------+---------+------------+
 | id | name    | salary  | start      |
